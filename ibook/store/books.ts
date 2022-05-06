@@ -3,5 +3,5 @@ import { Book } from '@/models'
 
 @Module({ name: 'books', stateFactory: true, namespaced: true })
 export default class Books extends VuexModule {
-  private 
+
 }
