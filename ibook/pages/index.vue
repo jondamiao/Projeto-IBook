@@ -8,9 +8,8 @@ import { books } from '@/store'
 
 export default Vue.extend({
   layout: 'ibook',
-  asyncData() {
-    debugger
-    console.log(books.books[0].title)
+  async asyncData() {
+   await books.index()
   }
 })
 </script>
